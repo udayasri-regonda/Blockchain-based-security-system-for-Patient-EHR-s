@@ -1,0 +1,18 @@
+{
+  "name": "ehr-blockchain-unified",
+  "version": "2.0.0",
+  "description": "Blockchain-Based EHR Security System — B.Tech Final Year Project (NNRG 2024-25)",
+  "private": true,
+  "scripts": {
+    "client":   "cd client && npm start",
+    "compile":  "truffle compile",
+    "migrate":  "truffle migrate --reset",
+    "test":     "truffle test",
+    "deploy":   "npm run compile && npm run migrate",
+    "console":  "truffle console"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5",
+    "@truffle/hdwallet-provider": "^2.1.15"
+  }
+}
